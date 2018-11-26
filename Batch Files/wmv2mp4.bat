@@ -13,5 +13,4 @@ if /I %ch%==N goto :eof
 echo Invalid choice & goto QUERY
 
 :CONVERT
-cd %cd%
 FOR /F "tokens=*" %%G IN ('dir /b *.wmv') DO ffmpeg -i "%%G" -acodec mp4 "%%~nG.mp4"
